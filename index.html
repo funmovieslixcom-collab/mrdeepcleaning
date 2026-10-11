@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR. DEEP CLEANING — Servis Cuci Tilam, Kusyen Kereta & Kerusi Pejabat | KL / Selangor</title>
+  <meta name="description" content="Mr. Deep Cleaning — pakar deep cleaning tilam, kusyen kereta, kerusi pejabat & sofa di Kuala Lumpur dan Selangor. Tanggah hama, tungau & kotoran tersembunyi. WhatsApp 014-226011 untuk tempahan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand">
+        <img src="assets/img/logo.jpeg" alt="MR. DEEP CLEANING logo" class="brand-logo" onerror="this.remove()">
+        <span class="brand-text">MR.<b>DEEP</b>CLEANING</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#services" data-i18n="nav_services">Servis</a>
+        <a href="#why" data-i18n="nav_why">Kenapa Kami</a>
+        <a href="#pricing" data-i18n="nav_pricing">Harga</a>
+        <a href="#feedback" data-i18n="nav_feedback">Feedback</a>
+        <a href="#contact" data-i18n="nav_contact">Hubungi</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-active" id="langLabel">BM</span> / EN
+        </button>
+        <a class="btn btn-primary btn-nav" id="waNav" href="#" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.83 14.12c-.25.7-1.45 1.33-2.02 1.42-.52.08-1.17.11-1.89-.12-.44-.14-1-.32-1.71-.63-3.02-1.3-4.99-4.34-5.14-4.54-.15-.2-1.23-1.63-1.23-3.11 0-1.48.78-2.21 1.05-2.51.28-.3.6-.38.8-.38.2 0 .4 0 .58.01.18.01.43-.07.68.52.25.6.85 2.07.92 2.22.08.15.13.33.03.53-.1.2-.15.33-.3.5-.15.18-.32.4-.45.53-.15.15-.31.31-.13.61.17.3.77 1.26 1.65 2.05 1.13 1 2.08 1.31 2.38 1.46.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.25.68-.15.28.1 1.75.83 2.05.98.3.15.5.22.58.35.07.13.07.75-.18 1.45z"/></svg>
+          <span data-i18n="cta_whatsapp">WhatsApp Kami</span>
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="badge" data-i18n="hero_badge">✦ Pakar Deep Cleaning KL &amp; Selangor</span>
+        <h1 data-i18n-html="hero_title">Tilam &amp; Sofa Anda <span class="accent">Bersih Macam Baru</span></h1>
+        <p class="hero-sub" data-i18n="hero_sub">Kami singkir hama, tungau, noda &amp; bau tak sedap dari tilam, sofa, kusyen kereta dan kerusi pejabat — guna mesin profesional &amp; chemical selamat untuk keluarga.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" id="waHero" href="#" target="_blank" rel="noopener" data-i18n="hero_cta1">Tempah Sekarang</a>
+          <a class="btn btn-ghost btn-lg" href="#pricing" data-i18n="hero_cta2">Lihat Harga</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><b data-i18n-num="500">500+</b><span data-i18n="trust1">Pelanggan Puas Hati</span></div>
+          <div class="trust-item"><b data-i18n-num="5">5★</b><span data-i18n="trust2">Rating Google</span></div>
+          <div class="trust-item"><b data-i18n-num="2">2</b><span data-i18n="trust3">Tahun Pengalaman</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-frame">
+          <img src="assets/img/logo.jpeg" alt="MR. DEEP CLEANING" onerror="this.parentElement.classList.add('placeholder');this.remove()">
+          <div class="hero-img-fallback"><span data-i18n="img_hero">MR. DEEP CLEANING</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="svc_kicker">PERKHIDMATAN KAMI</span>
+        <h2 data-i18n="svc_title">Kami Cuci Apa Yang Orang Lain Tak Sangka Kotor.</h2>
+        <p data-i18n="svc_sub">Deep cleaning profesional untuk semua perkara lembut dalam hidup anda.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-tilam.jpg" alt="Cuci tilam" onerror="this.style.display='none';this.parentElement.classList.add('ph-1')"></div>
+          <h3 data-i18n="svc1_title">🛏️ Cuci Tilam</h3>
+          <p data-i18n="svc1_desc">Singkir tungau, hama &amp; noda kuning. Sesuai untuk bayi, kanak-kanak &amp; alahan kulit.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-sofa.jpg" alt="Cuci sofa" onerror="this.style.display='none';this.parentElement.classList.add('ph-2')"></div>
+          <h3 data-i18n="svc2_title">🛋️ Cuci Sofa &amp; Kerusi</h3>
+          <p data-i18n="svc2_desc">Sofa kain &amp; kulit, kerusi makan, pouf — kembali bersih, segar &amp; bebas bau.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-kereta.jpg" alt="Cuci kusyen kereta" onerror="this.style.display='none';this.parentElement.classList.add('ph-3')"></div>
+          <h3 data-i18n="svc3_title">🚗 Kusyen Kereta</h3>
+          <p data-i18n="svc3_desc">Detailing interior — kusyen, karpet, headliner &amp; plafond. Bau hapak &amp; kesat hilang.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-pejabat.jpg" alt="Kerusi pejabat" onerror="this.style.display='none';this.parentElement.classList.add('ph-4')"></div>
+          <h3 data-i18n="svc4_title">💼 Kerusi Pejabat</h3>
+          <p data-i18n="svc4_desc">Pakej korporat untuk office &amp; pejabat. Bulk booking, kerja hujung minggu tersedia.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-karpet.jpg" alt="Cuci karpet" onerror="this.style.display='none';this.parentElement.classList.add('ph-5')"></div>
+          <h3 data-i18n="svc5_title">🧶 Karpet &amp; Permaidani</h3>
+          <p data-i18n="svc5_desc">Karpet besar, permaidani solat &amp; rug hiasan — cuci mendalam, kering cepat.</p>
+        </article>
+        <article class="card service-card">
+          <div class="card-img"><img src="assets/img/svc-stroller.jpg" alt="Stroller & baby items" onerror="this.style.display='none';this.parentElement.classList.add('ph-6')"></div>
+          <h3 data-i18n="svc6_title">🍼 Barangan Bayi</h3>
+          <p data-i18n="svc6_desc">Stroller, car seat &amp; baby cot. Chemical mesra bayi, selamat digunakan semula.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="section section-alt" id="why">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="why_kicker">KENAPA MR. DEEP CLEANING?</span>
+        <h2 data-i18n="why_title">Bukan Cuci Biasa. Ini Deep Cleaning.</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="feature"><div class="feature-icon">⚙️</div><h4 data-i18n="f1_title">Mesin Profesional</h4><p data-i18n="f1_desc">Extraction machine &amp; steam berkualiti tinggi — kotoran dikeluarkan, bukan disembunyikan.</p></div>
+        <div class="feature"><div class="feature-icon">🌿</div><h4 data-i18n="f2_title">Chemical Selamat</h4><p data-i18n="f2_desc">Mesra kanak-kanak, bayi &amp; haiwan peliharaan. Tanpa bau kimia yang keras.</p></div>
+        <div class="feature"><div class="feature-icon">🏠</div><h4 data-i18n="f3_title">Datang Ke Rumah</h4><p data-i18n="f3_desc">Servis di lokasi anda seluruh KL &amp; Selangor. Anda tak perlu ke mana-mana.</p></div>
+        <div class="feature"><div class="feature-icon">⏱️</div><h4 data-i18n="f4_title">Kering Cepat</h4><p data-i18n="f4_desc">Kuasa penghisap tinggi — tilam &amp; sofa anda siap guna dalam beberapa jam.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="proc_kicker">CARA KERJA</span>
+        <h2 data-i18n="proc_title">Mudah. 3 Langkah Je.</h2>
+      </div>
+      <div class="grid grid-3 steps">
+        <div class="step"><span class="step-num">1</span><h4 data-i18n="s1_title">WhatsApp Kami</h4><p data-i18n="s1_desc">Hantar gambar item &amp; lokasi anda. Kami bagi quote percuma.</p></div>
+        <div class="step"><span class="step-num">2</span><h4 data-i18n="s2_title">Pilih Masa</h4><p data-i18n="s2_desc">Kami datang ikut jadual anda — termasuk hujung minggu.</p></div>
+        <div class="step"><span class="step-num">3</span><h4 data-i18n="s3_title">Kami Cuci</h4><p data-i18n="s3_desc">Duduk diam, tengok barang anda jadi bersih &amp; segar semula.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="price_kicker">HARGA</span>
+        <h2 data-i18n="price_title">Harga Berpatutan, Kualiti Premium.</h2>
+        <p data-i18n="price_note">* Harga anggaran. Quote muktamad ikut saiz &amp; keadaan item — WhatsApp untuk quote tepat.</p>
+      </div>
+      <div class="pricing-images">
+        <img src="assets/img/harga1.jpeg" alt="Senarai harga 1" loading="lazy" onerror="this.remove()">
+        <img src="assets/img/harga3.png" alt="Senarai harga 2" loading="lazy" onerror="this.remove()">
+      </div>
+      <div class="pricing-grid">
+        <!-- Kategori 1: Kusyen Kereta -->
+        <div class="pricing-card">
+          <div class="pricing-cat">
+            <span class="pricing-cat-icon">🚗</span>
+            <h3 data-i18n="pc1_title">Cuci Kusyen Kereta</h3>
+          </div>
+          <table>
+            <tbody>
+              <tr><td data-i18n="pc1_r1">Compact</td><td>RM 120</td></tr>
+              <tr><td data-i18n="pc1_r2">Sedan 5 tempat duduk</td><td>RM 140</td></tr>
+              <tr><td data-i18n="pc1_r3">MPV 7 tempat duduk</td><td>RM 170</td></tr>
+              <tr><td data-i18n="pc1_r4">Van 9 tempat duduk</td><td>RM 190</td></tr>
+              <tr><td data-i18n="pc1_r5">Bumbung (Sedan / MPV)</td><td>RM 70 / RM 80</td></tr>
+              <tr><td data-i18n="pc1_r6">Panel pintu (1 pintu)</td><td>RM 10</td></tr>
+              <tr><td data-i18n="pc1_r7">Karpet alas kaki (1 keping)</td><td>RM 10</td></tr>
+              <tr><td data-i18n="pc1_r8">Karpet lantai (Sedan / MPV)</td><td>RM 70 / RM 80</td></tr>
+              <tr><td data-i18n="pc1_r9">Bonet</td><td>RM 30</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Kategori 2: Sofa & Kerusi Pejabat -->
+        <div class="pricing-card">
+          <div class="pricing-cat">
+            <span class="pricing-cat-icon">🛋️</span>
+            <h3 data-i18n="pc2_title">Cuci Sofa &amp; Kerusi Pejabat</h3>
+          </div>
+          <table>
+            <tbody>
+              <tr><td data-i18n="pc2_r1">Sofa 1 tempat duduk</td><td>RM 60</td></tr>
+              <tr><td data-i18n="pc2_r2">Sofa 2 tempat duduk</td><td>RM 90</td></tr>
+              <tr><td data-i18n="pc2_r3">Sofa 3 tempat duduk</td><td>RM 120</td></tr>
+            </tbody>
+          </table>
+          <a class="btn btn-primary btn-block" id="waPricing" href="#" target="_blank" rel="noopener" data-i18n="price_cta">Dapatkan Quote Percuma →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS (FEEDBACK PELANGGAN) ===== -->
+  <section class="section" id="feedback">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="fb_kicker">MAKLUM BALAS PELANGGAN</span>
+        <h2 data-i18n="fb_title">Feedback Dari Rumah Yang Dah Bersih.</h2>
+      </div>
+      <div class="feedback-grid" id="feedbackGrid">
+        <figure class="feedback-item"><img src="assets/img/feedback-1.jpeg" alt="Feedback pelanggan 1" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-2.jpeg" alt="Feedback pelanggan 2" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-3.jpeg" alt="Feedback pelanggan 3" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-4.jpeg" alt="Feedback pelanggan 4" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-5.jpeg" alt="Feedback pelanggan 5" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-6.jpeg" alt="Feedback pelanggan 6" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-7.jpeg" alt="Feedback pelanggan 7" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-8.jpeg" alt="Feedback pelanggan 8" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-9.jpeg" alt="Feedback pelanggan 9" loading="lazy" onerror="this.parentElement.remove()"></figure>
+        <figure class="feedback-item"><img src="assets/img/feedback-10.jpeg" alt="Feedback pelanggan 10" loading="lazy" onerror="this.parentElement.remove()"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-band">
+    <div class="container cta-band-inner">
+      <h2 data-i18n="band_title">Baru sedar tilam &amp; sofa anda kuning? 😅</h2>
+      <p data-i18n="band_sub">Jangan tunggu sampai alahan naik. WhatsApp sekarang — slot terhad setiap minggu.</p>
+      <a class="btn btn-white btn-lg" id="waBand" href="#" target="_blank" rel="noopener" data-i18n="band_cta">💬 WhatsApp 014-226011</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <a href="#hero" class="brand">
+          <img src="assets/img/logo.jpeg" alt="MR. DEEP CLEANING logo" class="brand-logo" onerror="this.remove()">
+          <span class="brand-text">MR.<b>DEEP</b>CLEANING</span>
+        </a>
+        <p class="footer-tag" data-i18n="foot_tag">Pakar deep cleaning tilam, sofa, kusyen kereta &amp; kerusi pejabat di KL &amp; Selangor.</p>
+      </div>
+      <div>
+        <h5 data-i18n="foot_hubungi">Hubungi</h5>
+        <p>📱 <a id="waFooter" href="#" target="_blank" rel="noopener">014-226011</a></p>
+        <p data-i18n="foot_hours">⏰ Setiap hari, 9pagi – 7malam</p>
+      </div>
+      <div>
+        <h5 data-i18n="foot_area">Area Servis</h5>
+        <p data-i18n="foot_area_list">Kuala Lumpur • Shah Alam • Subang • Petaling Jaya • Klang • Puchong • Cheras • Ampang • Bangi • Kajang</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 MR. DEEP CLEANING. <span data-i18n="foot_rights">Hak cipta terpelihara.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.83 14.12c-.25.7-1.45 1.33-2.02 1.42-.52.08-1.17.11-1.89-.12-.44-.14-1-.32-1.71-.63-3.02-1.3-4.99-4.34-5.14-4.54-.15-.2-1.23-1.63-1.23-3.11 0-1.48.78-2.21 1.05-2.51.28-.3.6-.38.8-.38.2 0 .4 0 .58.01.18.01.43-.07.68.52.25.6.85 2.07.92 2.22.08.15.13.33.03.53-.1.2-.15.33-.3.5-.15.18-.32.4-.45.53-.15.15-.31.31-.13.61.17.3.77 1.26 1.65 2.05 1.13 1 2.08 1.31 2.38 1.46.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.25.68-.15.28.1 1.75.83 2.05.98.3.15.5.22.58.35.07.13.07.75-.18 1.45z"/></svg>
+  </a>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
