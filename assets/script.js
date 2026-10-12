@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  var WHATSAPP_NUMBER = '6014226011'; // 014-226011, format antarabangsa tanpa '+'
+  var WHATSAPP_NUMBER = '60146226011'; // 014-6226011, format antarabangsa tanpa '+'
   var WA_MESSAGE = {
     ms: 'Hai Mr. Deep Cleaning! Saya nak bertanya tentang servis cuci.',
     en: 'Hi Mr. Deep Cleaning! I would like to ask about your cleaning service.'
@@ -81,7 +81,7 @@
       fb_title: 'Feedback Dari Rumah Yang Dah Bersih.',
       band_title: 'Baru sedar tilam & sofa anda kuning? 😅',
       band_sub: 'Jangan tunggu sampai alahan naik. WhatsApp sekarang — slot terhad setiap minggu.',
-      band_cta: '💬 WhatsApp 014-226011',
+      band_cta: '💬 WhatsApp 014-6226011',
       foot_tag: 'Pakar deep cleaning tilam, sofa, kusyen kereta & kerusi pejabat di KL & Selangor.',
       foot_hubungi: 'Hubungi',
       foot_hours: '⏰ Setiap hari, 9pagi – 7malam',
@@ -158,7 +158,7 @@
       fb_title: 'Real Feedback From Newly Cleaned Homes.',
       band_title: 'Just realised your mattress & sofa are yellowing? 😅',
       band_sub: "Don't wait until allergies kick in. WhatsApp now — limited slots weekly.",
-      band_cta: '💬 WhatsApp 014-226011',
+      band_cta: '💬 WhatsApp 014-6226011',
       foot_tag: 'Deep cleaning specialists for mattresses, sofas, car upholstery & office chairs in KL & Selangor.',
       foot_hubungi: 'Contact',
       foot_hours: '⏰ Daily, 9am – 7pm',
